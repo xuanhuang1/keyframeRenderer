@@ -9,7 +9,7 @@ using json = nlohmann_loader::json;
 using namespace visuser;
 
 const std::string USAGE =
-    "./mini_vistool <config.json> [options]\n"
+    "./basic_usage <config.json> [options]\n"
     "Options:\n"
     "  -h                   Print this help.";
 
