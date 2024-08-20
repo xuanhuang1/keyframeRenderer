@@ -69,6 +69,10 @@ int main(int argc, char **argv)
 
 	// get current frame by key frame
     	for (int f = h.widgets[kf_idx].frameRange[0]; f <= h.widgets[kf_idx].frameRange[1]; f++){
+	    // TODO render
+
+	    // TODO save image
+	    
 	    if (f < h.widgets[kf_idx].frameRange[1]){
 		// advance frame 
 		h.widgets[kf_idx].advanceFrame();
@@ -78,10 +82,6 @@ int main(int argc, char **argv)
 		auto c = Camera();
 		h.widgets[kf_idx].getFrameCam(c); 
 		c.print();
-
-		// TODO render
-
-		// TODO save image
 	    }
 	}
 
